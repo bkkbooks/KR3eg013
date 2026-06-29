@@ -1,0 +1,84 @@
+canonical_identifier: bkk:krp/KR3eg013/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3eg013/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 重訂溫熱經解
+  identifiers:
+    krp: KR3eg013
+  tags:
+    kr-categories: KR3eg
+    tls-dates: dat02200
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eg013.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3eg013_000-jc.yaml, hash: 'sha256:767e0592617454502c6d553944c688c67302d3a0c062d04c18479752c4da945d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eg013_000-jc.markers.yaml, hash: 'sha256:a94f07c26dbe853ac046b1e5871c28cf72544fe5627d45f6a945fc51070298f3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eg013_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 401
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eg013_jc_000-d3.h1s1
+    span:
+    - front
+    - 401
+    - 1154
+  label: 自序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eg013_jc_000-d4.h1s1
+    span:
+    - body
+    - 0
+    - 1103
+  label: 凡例
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eg013_jc_000-d5.h1s1
+    span:
+    - body
+    - 1103
+    - 2244
+  label: 溫熱經解
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eg013_jc_000-d6.h1s1
+    span:
+    - body
+    - 2244
+    - 20140
+  label: 客氣溫病治法
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eg013_jc_000-d7.h1s1
+    span:
+    - body
+    - 20140
+    - 27193
+  label: 治驗
+  type: section
+  level: 1
+hash: sha256:a05e710065cfefb17c782c7471fe3a552154b75d91844465c209bf259bd7e189
